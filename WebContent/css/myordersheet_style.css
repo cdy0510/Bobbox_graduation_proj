@@ -1,0 +1,138 @@
+#contents{
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+table{
+	width: 960px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	font-size: 13px;
+	border-collapse: collapse;
+	border-top: 2px solid #594F4F;
+}
+th{
+	background-color: #F7F5F5;
+	border-bottom: 2px solid #ddd;
+	padding: 7px 0;
+}
+td{
+	text-align: center;
+	padding: 5px;
+	border-bottom: 1px solid #999;
+	font-family: 'Nanum Gothic', serif;
+
+}
+form{
+	width: 960px;
+	margin: 0 auto;
+}
+input[type="text"], input[type="date"]{
+	border: 0 none;
+	width: 50px;
+	text-algin: center;
+	background: none;
+}
+input[type="submit"]{
+	width: 100px;
+	margin: 0 auto;
+}
+input[type="button"]{
+	border: 0 none;
+	background: none;
+}
+input[name="sumPrice"]{
+	text-align: right;
+}
+input[name="sumP"]{
+	width: 80px;
+	text-align: right;
+}
+.disInline{
+	display: inline-block;
+}
+.width800{
+	width: 960px;
+}
+.bottomTh{
+	width: 40px;
+	padding: 0;
+}
+#sum{
+	width: 150px;
+}
+#btn{
+	width: 20px;
+}
+#sheetDate:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+#rootBar{
+	width: 960px;
+	padding: 10px 0;
+	font-size: 0.8em;
+}
+#rootBar a{
+	text-decoration: none;
+	color: #000;
+}
+#now_page{
+	color: #FE434C;
+	font-weight: bold;
+}
+#con-tit{
+	margin: 5px 0 10px 0;
+}
+#con-sub-tit{
+	margin-top: 10px;
+	float: right;
+	font-size: 13px;
+}
+#sheet_num{
+	text-align: center;
+}
+#updateBtn{
+	font-family: 'Nanum Gothic', serif;
+	color: green;
+	cursor: pointer;
+}
+#orderBoxTop{
+	width: 960px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+#orderBoxBottom{
+	margin-bottom: 40px;
+}
+#orderBoxTop th, #orderBoxBottom th{
+	padding: 7px 20px;
+	border-bottom: none;
+}
+#orderBoxTop tr, #orderBoxBottom tr{
+	border-bottom: 1px solid #999;
+}
+#orderBoxTop td{
+	text-align: left;
+	padding-left: 15px;
+}
+#orderBoxBottom td{
+	text-align: center;
+}
+
+#payDate, #deliveryDate{
+	width: 170px;
+	text-align: center;
+}
+#memberId, #sumPrice, #orderName{
+	width: 150px;
+}
+#detailSupplier{
+	width: 100px;
+}
+#menupaydate{
+	width: 150px;
+}
+#supplier_Account{
+	width: 150px;
+}

@@ -1,0 +1,56 @@
+@media screen and (max-width: 576px) {
+	#footer {
+		width: 384px;
+	}
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+	#footer {
+		width: 576px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+	#footer {
+		width: 768px;
+	}
+}
+
+@media screen and (min-width: 960px) {
+	#footer {
+		width: 960px;
+	}
+}
+
+#footer {
+	margin: 0 auto;
+	margin-bottom: 250px;
+	border-top: 1px solid #ccc;
+}
+#footer li {
+	list-style: none;
+	color: #000;
+	font-size: 12px;
+	float: left;
+	letter-spacing: 1px;
+	display: block;
+}
+
+.footer_logo img {
+	width: 55px;
+	height: 50px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.footer-haccp img {
+	width: 50px;
+	height: 50px;
+	margin-left: 20px;
+}
+
+.footer-hyw img {
+	width: 50px;
+	height: 50px;
+	margin-left: 20px;
+}

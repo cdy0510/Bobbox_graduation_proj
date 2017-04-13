@@ -1,0 +1,119 @@
+#ordersheet_contents{
+	height: 960px;
+	margin-top: 20px;
+}
+
+table{
+	margin: 0 auto;
+	margin-bottom: 20px;
+	font-size: 13px;
+	border-collapse: collapse;
+	border-top: 2px solid #594F4F;
+	font-family: 'Nanum Gothic', serif;
+}
+th{
+	padding: 7px 0;
+	background-color: #F7F5F5;
+	border-bottom: 2px solid #ddd;
+}
+td{
+	text-align: center;
+	padding: 5px;
+	border-bottom: 1px solid #999;
+	font-family: 'Nanum Gothic', serif;
+}
+form{
+	width: 940px;
+	margin: 0 auto;
+}
+input[type="text"], input[type="date"]{
+	border: 0 none;
+	text-algin: center;
+	font-family: 'Nanum Gothic', serif;
+}
+input[type="submit"]{
+	border: 0 none;
+	padding: 10px 20px;
+	margin: 0 auto;
+	cursor: pointer;
+	background-color: #9EBB3E;
+	color: #fefefe;
+	font-family: 'Nanum Gothic', serif;
+}
+input[type="submit"]:hover{
+	background-color: #74892F;
+}
+input[type="button"]{
+	border: 0 none;
+	background: none;
+}
+#rootBar {
+    width: 960px;
+    padding: 10px 0;
+    text-indent: 10px;
+    font-size: 0.8em;
+}
+
+#rootBar a {
+    text-decoration: none;
+    color: #000;
+}
+
+#now_page {
+    color: #FE434C;
+    font-weight: bold;
+}
+#orderBoxTop{
+	width: 940px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+#orderBoxMiddle{
+	width: 940px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+#orderBoxBottom{
+	width: 940px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+#orderBoxTop th, #orderBoxBottom th{
+	padding: 7px 20px;
+	border-bottom: none;
+}
+#orderBoxTop tr, #orderBoxBottom tr{
+	border-bottom: 1px solid #999;
+}
+#orderBoxTop td{
+	text-align: left;
+	padding-left: 15px;
+}
+#orderBoxBottom td{
+	text-align: center;
+}
+#menuName{
+	width: 300px;
+}
+#menuQuan{
+	width: 200px;
+}
+.cost_price{
+	width: 60px;
+	text-align: right;
+}
+.sum_price{
+	width: 80px;
+	text-align: right;
+}
+
+#detailSupplier, #paydate{
+	width: 200px;
+	font-family: 'Nanum Gothic', serif;
+}
+#detailnum{
+	width: 50px;
+}
+#submit-btn{
+	text-align: center;
+}

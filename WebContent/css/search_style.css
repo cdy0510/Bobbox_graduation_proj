@@ -1,0 +1,29 @@
+body{
+	padding:20px;
+}
+#content {
+	text-align: center;
+}
+input[type="text"],input[type="password"]{
+	width: 200px;
+	font-size: 0.8em;
+	padding:10px;
+	margin:5px;
+}
+.btn_area {
+	margin: 20px auto;
+}
+.btn_area input[type="submit"],input[type="button"] {
+	padding: 10px;
+	width: 130px;
+	border: 0 none;
+	color: white;
+	font-size: 0.8em;
+	background: #9EBB3E;
+}
+img {
+	height: 40px;
+}
+#coment {
+	font-size: 0.7em;
+}

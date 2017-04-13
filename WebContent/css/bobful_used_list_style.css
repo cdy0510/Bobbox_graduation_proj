@@ -1,0 +1,50 @@
+body{
+	width: 960px;
+
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+#contents{
+	margin-bottom: 20px;
+}
+#today{
+	font-size: 12px;
+	margin: 0 0 10px 30px;
+}
+#bytoday{
+	width: 130px;
+	background: none;
+	border: none;
+	font-family: 'Nanum Gothic', serif;
+}
+input[name="chargePrice"]{
+	width: 55px;
+	text-align: right;
+}
+input[name="useBobpul"]{
+	width: 50px;
+	text-align: right;
+}
+table{
+	width: 700px;
+	margin: 0 auto;
+	font-size: 13px;
+	border-collapse: collapse;
+}
+th{
+	padding: 7px 0;
+	background-color: #F7F5F5;
+	border-top: 2px solid #594F4F;
+	border-bottom: 2px solid #ddd;
+}
+td{
+	text-align: center;
+	padding: 5px;
+	border-bottom: 1px solid #999;
+}
+input[type="text"]{
+	border: 0 none;
+}

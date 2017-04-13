@@ -1,0 +1,71 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+*{
+    font-family: 'Nanum Gothic' sans-serif;
+}
+body{
+    background: #E0E0E0;
+}
+
+select{
+	width: 150px;
+	padding: 2px;
+}
+.box {
+	margin: 100px auto;
+	padding: 20px;
+	width: 500px;
+	border-radius: 50px;
+	background: #fff;
+	text-align: center;
+}
+#logo {
+	margin: 10px;
+	height: 80px;
+}
+#must_write, #sub_write {
+    margin: auto;
+    width:450px;
+    left: 25px;
+	outline: 1px solid #e0e0e0;
+    z-index: 1;
+}
+.line {
+    border-bottom: 1px solid #f0f0f0;   
+}
+.label{
+	margin-top: -3px;
+	width: 80px;
+	margin-right:10px;
+	float: left;
+	font-size: 0.9em;
+	border-right: 1px solid #e0e0e0;
+}
+#must_write div, #sub_write div {
+    padding: 10px;
+    text-align: left;
+    color: #b5b5b5;
+}
+input[type="text"] {
+    border: 0 none;
+    padding: 5px;
+    font-size: 0.8em;
+	width: 300px;
+    
+}
+#fileName {
+	width: 150px;
+}
+#fileImage {
+	margin-left: 90px;
+}
+#fileImage_detail, #fileImage {
+	margin-top: 10px;
+}
+input[type="submit"], input[type="button"]{
+    margin: 50px 0 30px 0;
+	padding: 15px;
+	width: 200px;
+	border: 0 none;
+	color: white;
+	background: #9EBB3E;
+}

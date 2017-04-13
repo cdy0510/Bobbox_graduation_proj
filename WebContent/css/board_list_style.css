@@ -1,0 +1,83 @@
+#board_page {
+	width: 700px;
+	margin: 30px auto;
+}
+#board-table {
+	width: 700px;
+	margin: auto;
+}
+#board_area {
+	margin-top: 5px;
+	background: #fff;
+}
+table {
+	width: 700px;
+    border-collapse: collapse;   
+    color: #373737;
+    border-top: 2px solid #e3e3e3;
+    border-bottom: 2px solid #e3e3e3;
+}
+a {
+	text-decoration: none;
+	color: #373737;
+}
+#table-header {
+    text-align: center;
+    font-size: 0.8em;
+}
+#table-header td {
+    border-bottom: 1px solid #e1e1e1;
+    padding: 5px;
+    background: #f5f5f5;
+}
+#table-content {
+    text-align: center;
+    font-size: 0.9em;
+}
+#table-content td {
+    padding: 5px; 
+    border-bottom: 1px solid #e2e2e2;
+}
+#notice_board, #qna_board, #review_board {
+		width: 233px;
+		height: 43px;
+		cursor: pointer;
+		display: block;
+		float: left;
+	}
+#board-num, #board-read-count {
+    width: 40px;   
+}
+#table-content #board-title {
+    width: 300px;
+    text-align: left;
+}
+#board-writer {
+    width: 80px;
+}
+#board-day {
+    width: 100px;   
+}
+#page_num_area {
+	width: 700px;
+	margin: 0 auto;
+	padding: 10px 0;
+	text-align: center;
+	background: #F5F5F5;
+	border-bottom: 2px solid #E3E3E3;
+}
+#btnarea {
+	margin: auto;
+	margin-top: 10px;
+	width: 700px;
+	text-align: right;
+}
+#btnarea input[type="button"] {
+	border:1px solid #a1a1a1;
+	padding: 5px 13px;
+	background: #fff;
+	border-radius: 5px;
+	font-size: 0.8em;
+	color: #373737;
+	cursor: pointer;
+}

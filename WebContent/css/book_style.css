@@ -1,0 +1,90 @@
+#contents{
+	margin: 0 auto;
+	margin-top: 20px;
+}
+table{
+	width: 960px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	font-size: 13px;
+	border-collapse: collapse;
+	border-top: 2px solid #594F4F;
+}
+th{
+	padding: 7px 0;
+	background-color: #F7F5F5;
+	border-bottom: 2px solid #ddd;
+}
+td{
+	text-align: center;
+	padding: 5px;
+	border-bottom: 1px solid #999;
+	font-family: 'Nanum Gothic', serif;
+}
+form{
+	width: 960px;
+	margin: 0 auto;
+}
+input[type="text"]{
+	width: 65px;
+	border: 0 none;
+	text-align: right;
+}
+input[name="supplier"], input[name="member"]{
+	width: 80px;
+	font-family: 'Nanum Gothic', serif;
+	text-align: center;
+}
+.txtRed{
+	color: red;
+	font-weight: bold;
+	font-size: 15px;
+}
+.txtBlue{
+	color: blue;
+	font-weight: bold;
+	font-size: 15px;
+}
+.disInline{
+	display: inline-block;
+}
+.width800{
+	width: 800px;
+}
+#bottomTable th{
+	border-bottom: 1px solid #999;
+}
+#rootBar{
+	width: 960px;
+	padding: 10px 0;
+	font-size: 0.8em;
+}
+#rootBar a{
+	text-decoration: none;
+	color: #000;
+}
+#now_page{
+	color: #FE434C;
+	font-weight: bold;
+}
+#con-tit{
+	margin: 5px 0 10px 0;
+}
+#standDate{
+	font-size: 13px;
+	margin-top: 10px;
+	float: right;
+}
+#date{
+	width: 75px;
+	text-align: center;
+}
+#date:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+#suppName{
+	width: 120px;
+	text-align: center;
+	font-family: 'Nanum Gothic', serif;
+}

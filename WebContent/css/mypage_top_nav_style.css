@@ -1,0 +1,46 @@
+#topBar{
+	width: 960px; height: 94px;
+	border-bottom: 3px solid green;
+}
+#topBar ul{
+	margin: 0;
+	list-style-type: none;
+	padding: 0;
+}
+#topBar li{
+	float: left;
+	margin-right: 15px;
+	margin-right: 15px;
+	display: inline-block;
+}
+#line{
+	width:1px; height: 70px;
+	margin-top: 10px;
+	background-color: #ccc;
+}
+#grade_info{
+	margin-top: 20px;
+	font-size: 12px;
+	padding: 9px 30px;
+	line-height: 1.5;
+}
+#info{
+	margin-top: 15px;
+	padding: 0 30px;
+}
+#info-txt{
+	font-size: 13px;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+}
+#sub-txt{
+	font-size: 13px;
+	color: #aaa;
+}
+#real-info{
+	text-align: center;
+}
+#db-info{
+	font-weight: bold;
+}

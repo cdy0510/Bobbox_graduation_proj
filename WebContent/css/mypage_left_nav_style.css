@@ -1,0 +1,24 @@
+#leftBar{
+	width: 198px;
+	height: 960px;
+	display: inline-block;
+	float: left;
+	border-right: 1px solid #C2C2C2;
+}
+#leftBar ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+#left-img{
+	margin: 10px 0 10px 10px;
+}
+#left-sub{
+	margin: 0 20px 10px 30px;
+	padding: 3px 5px;
+	font-size: 13px;
+	cursor: pointer;
+}
+#left-sub:hover{
+	background-color: #ECECEC;
+}

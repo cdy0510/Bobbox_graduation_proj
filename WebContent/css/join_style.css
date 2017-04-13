@@ -1,0 +1,119 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+*{
+    font-family: 'Nanum Gothic' sans-serif;
+}
+body{
+    background: #E0E0E0;
+}
+.box {
+	margin: 100px auto;
+	padding: 20px;
+	width: 500px;
+	border-radius: 50px;
+	background: #fff;
+	text-align: center;
+}
+#logo {
+	margin: 10px;
+	height: 80px;
+}
+#must_write, #sub_write {
+    margin: auto;
+    width:450px;
+    left: 25px;
+	outline: 1px solid #e0e0e0;
+    z-index: 1;
+}
+.line {
+    border-bottom: 1px solid #f0f0f0;   
+}
+.label{
+	margin-top: -5px;
+	width: 60px;
+	margin-right:10px;
+	float: left;
+	font-size: 0.9em;
+	font-weight: bold;
+	border-right: 1px solid #e0e0e0;
+}
+#must_write div, #sub_write div {
+    padding: 10px;
+    text-align: left;
+    color: #9D9D9D;
+}
+#gender input[type="text"] {
+    width: 180px;   
+}
+#gender img {
+    margin-bottom: -3px; 
+    height: 30px;
+}
+#birth input[type="text"]{
+    width: 60px;
+    border: 1px solid #e0e0e0;
+}
+#birth select {
+	padding: 4px;
+	width: 60px;
+	color: #9d9d9d;
+	border:1px solid #e0e0e0;
+}
+input[type="text"],input[type="password"] {
+    border: 0 none;
+    padding: 5px;
+    font-size: 0.8em;
+	width: 300px;
+    
+}
+#pw_msg, #id_msg {
+	margin-left: 5px;
+	font-size: 0.7em;
+	color: #A5C440;
+	display: none;
+}
+input[type="button"],input[type="submit"]{
+    margin: 50px 0 30px 0;
+	padding: 15px;
+	width: 200px;
+	border: 0 none;
+	color: white;
+	background: #9EBB3E;
+}
+
+
+/*-------------------이용약관 Style--------------*/
+#content_box {
+    margin: 10px 0px;
+    padding: 10px;
+    text-align: left;
+}
+#content_box p {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px;
+    font-weight: bold;
+    color: #333333;
+}
+#content_box input[type="checkbox"] {
+    float: right;
+    margin-top: -0.5px;
+    width: 20px;
+    height: 20px;
+}
+#content_box textarea {
+    margin: 0 15px;
+    padding: 10px;
+    width: 90%;
+    height: 100px;
+    overflow: scroll;
+}
+#btn_area input[type="button"] {
+    margin: 20px 10px 30px 10px;
+    padding: 15px;
+    width: 150px;
+    border: 0 none;
+    font-size: 1em;
+}
+#btn_area #agree {
+    background: #9EBB3E;
+    color:#fff;
+}

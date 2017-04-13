@@ -1,0 +1,43 @@
+*{ margin: 0; padding: 0;}
+html, body{height: 100%;}
+body{
+	width: 960px;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+.txtBold{
+	font-weight: bold;
+}
+.txtGreen{
+	font-weight: bold;
+	color: green;
+	font-size: 13px;
+}
+#rootBar{
+	width: 960px;
+	padding: 10px 0;
+	text-indent: 10px;
+	font-size: 0.8em;
+}
+#rootBar a{
+	text-decoration: none;
+	color: #000;
+}
+#now_page{
+	color: #FE434C;
+	font-weight: bold;
+}
+#contents{
+	width: 760px;
+	height: 960px;
+	display: inline-block;
+}
+#con-tit{
+	margin: 20px 0 15px 30px;
+}
+#page_num_area {
+	float: right;
+}

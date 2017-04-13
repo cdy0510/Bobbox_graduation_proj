@@ -1,0 +1,84 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+*{
+    font-family: 'Nanum Gothic' sans-serif;
+}
+body {
+    background: #fefefe;
+}
+form{
+	width: 750px;
+	margin: 0 auto;
+}
+table{
+	font-size: 13px;
+	border-collapse: collapse;
+}
+.td-tit{
+	width: 100px;
+	text-align: center;
+	padding: 10px 0;
+	background-color: #F7F5F5;
+	border-right: 2px solid #ddd;
+}
+
+#menuselect {
+	width: 200px;
+	padding: 2px;
+}
+#supplier_bank {
+	width: 70px;
+	padding: 2px;
+}
+
+
+#gender, #grade {
+	width: 80px;
+}
+select{
+	width: 200px;
+	padding: 2px;
+	margin-left: 10px;
+}
+
+#fileName {
+	width:150px;
+}
+#fileImage {
+	margin-top: 10px;
+	margin-left: 90px;
+}
+#fileImage_detail {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#supplier_account_data {
+	width: 150px;
+}
+input[type="text"] {
+    border: 0 none;
+    padding: 5px;
+    font-size: 0.8em;
+	width: 200px;
+    margin-left: 10px;
+}
+input[type="file"] {
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+#submitArea{
+	text-align: center;
+}
+input[type="submit"], input[type="button"]{
+    margin-top: 20px;
+	padding: 15px;
+	width: 200px;
+	border: 0 none;
+	color: white;
+	background: #9EBB3E;
+}
+#pw_msg, #id_msg {
+	margin-left: 5px;
+	font-size: 0.7em;
+	color: #A5C440;
+	display: none;
+}

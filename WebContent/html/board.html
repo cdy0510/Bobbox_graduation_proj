@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>게시판</title>
+<link href="board_style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<form>
+    <div id="board-top">
+        <table>
+            <tr>
+                <td id="board-type">[분류]</td>
+                <td id="board-title">제목</td>
+                <td id="board-day">2014-09-22 20:17</td>
+                <td id="board-read-count">122</td>
+            </tr>
+        </table>
+    </div>
+    <div id="border-line"></div>
+    <div>
+        <table>
+            <tr>
+                <td id="writer">작성자</td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="board-content">
+                        글내용
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table id="reple">
+            <tr>
+                <td id="reple-writer">작성자</td>
+                <td colspan="3" id="reple-day">2014-09-22 21:32</td>
+                <td id="reple-delete"><input type="button" value="삭제"></td>
+            </tr>
+            <tr>
+                <td colspan="2" id="reple-content">댓글내용</td>                
+            </tr>
+            <tr>
+                <td colspan="5"><div id="border-line"></div></td>
+            </tr>
+            <tr>
+                <td id="reple-writer">작성자</td>    
+                <td colspan="3" id="reple-content"><input type="text"></td>
+                <td id="reple-create"><input type="button" value="댓글쓰기"></td>
+            </tr>
+        </table>
+    </div>
+    <div id="btnarea">
+        <input type="button" value="수정">
+        <input type="button" value="삭제">
+        <input type="button" value="답글쓰기">
+        <input type="button" value="목록">
+    </div>  
+</form>      
+</body>
+</html>

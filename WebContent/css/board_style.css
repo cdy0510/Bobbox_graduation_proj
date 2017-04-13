@@ -1,0 +1,186 @@
+*{
+	font-family: 'Nanum Gothic' sans-serif;
+}
+
+form {
+	margin: auto;
+	width: 720px;
+	border: 1px solid #a2a2a2;
+	background: #fff;
+}
+
+table {
+	width: 720px;
+	padding: 10px 20px 10px 20px;
+}
+
+pre {
+	line-height: 2;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+textarea {
+	width: 670px;
+}
+
+input[name="admin_board_title"], input[name="review_board_title"]{
+	width: 100%;
+}
+
+.border-line {
+	width: 95%;
+	margin: 0 auto;
+	border-bottom: 1px dashed #aaa;
+}
+
+#label {
+	width: 40px;
+	font-weight: bold;
+}
+#bywrite{
+	width: 60px;
+	font-weight: bold;
+}
+
+#board-type {
+	width: 70px;
+	color: orange;
+	font-weight: bold;
+}
+
+#board-title {
+	width: 450px;
+	padding: 10px 0;
+	color: #131313;
+	font-weight: bold;
+}
+
+#board-day {
+	color: #a3a3a3;
+	font-size: 0.8em;
+	padding: 3px;
+	padding-right: 20px;
+}
+
+#board-read-count {
+	border-left: 1px solid #a2a2a2;
+	width: 30px;
+	text-align: right;
+	font-size: 0.8em;
+}
+
+#writer {
+	color: #131313;
+	font-weight: bold;
+	font-size: 0.8em;
+	text-align: 10px;
+}
+
+#board-content {
+	height: 300px;
+	font-size: 0.9em;
+}
+
+#reply-table {
+	padding: 20px;
+	background: #f2f2f2;
+	font-size: 0.9em;
+}
+
+#reple {
+	width: 95%;
+	margin: 0 auto;
+	border-collapse: collapse;
+	border-top: none;
+}
+
+#qnareple{
+	width: 95%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	border-collapse: collapse;
+	border-top: none;
+}
+
+#reple-writer {
+	font-weight: bold;
+	width: 60px;
+}
+
+#reple-content {
+	width: 350px;
+}
+
+#reple-content input[type="text"] {
+	width: 95%;
+}
+
+#reple-day {
+	width: 50px;
+	color: #a3a3a3;
+	font-size: 0.9em;
+	padding: 3px;
+}
+
+#reple-delete {
+	width: 10px;
+	text-align: center;
+}
+
+#reple-delete, #reple-create {
+	text-align: right;
+}
+
+#reple-delete input[type="button"] {
+	border: none 0;
+	background: rgba(255, 255, 255, 0);
+	color: #a3a3a3;
+	cursor: pointer;
+}
+
+#reple-create input[type="button"] {
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+#btnarea {
+	margin: auto;
+	margin-bottom: 10px;
+	width: 680px;
+	text-align: right;
+	width: 680px;
+}
+
+#btnarea input[type="button"], input[type="submit"], input[type="reset"] {
+	border: 1px solid #a1a1a1;
+	padding: 5px 13px;
+	background: #fff;
+	border-radius: 5px;
+	font-size: 0.8em;
+	color: #373737;
+	cursor: pointer;
+}
+#boardForm{
+	padding: 10px 0;
+	border-top: none;
+	margin-bottom: 10px;
+}
+#board-comment{
+	font-size: 0.8em;
+}
+#btnbox{
+	padding-top: 10px;
+	width: 720px;
+	margin: 0 auto;
+	text-align: right;
+}
+#btnbox input[type="button"]{
+	border: 1px solid #a1a1a1;
+	padding: 5px 13px;
+	background: #fff;
+	border-radius: 5px;
+	font-size: 0.8em;
+	color: #373737;
+	cursor: pointer;
+}

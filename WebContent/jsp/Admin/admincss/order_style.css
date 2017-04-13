@@ -1,0 +1,146 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body {
+	font-family: 'Nanum Gothic', serif;
+}
+
+select {
+	width: 200px;
+	font-family: 'Nanum Gothic', serif;
+	padding: 3px;
+}
+
+input[type="submit"] {
+	font-family: 'Nanum Gothic', serif;
+	border: 0 none;
+	width: 50px;
+	padding: 5px;
+	margin-left: 10px;
+	font-size: 13px;
+	text-align: center;
+	background-color: #9EBB3E;
+	color: #fefefe;
+	cursor: pointer;
+	display: inline-block;
+}
+
+input[type="text"] {
+	width: 50px;
+	text-align: right;
+	border: 0 none;
+}
+input[name="stateTxt"]{
+	width: 50px;
+	font-family: 'Nanum Gothic', serif;
+	background: none;
+}
+input[name="stateBtn"]{
+	padding: 5px 10px;
+	font-size: 13px;
+	font-family: 'Nanum Gothic', serif;
+	text-align: center;
+	background-color: #9EBB3E;
+	color: #fefefe;
+	cursor: pointer;
+	border: 0 none;
+	margin: 0 0 5px 10px;
+}
+.floatRight{
+	float: right;
+}
+
+#contents {
+	width: 960px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+table {
+	width: 960px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	font-size: 13px;
+	border-collapse: collapse;
+	border-top: 2px solid #594F4F;
+}
+
+th {
+	padding: 7px 0;
+	background-color: #F7F5F5;
+	border-bottom: 2px solid #ddd;
+}
+
+td {
+	text-align: center;
+	padding: 5px;
+	border-bottom: 1px solid #999;
+	font-family: 'Nanum Gothic', serif;
+}
+
+#content-header {
+	width: 960px;
+	margin: 20px auto;
+}
+
+#order-header{
+	width: 960px;
+	margin: 0 auto;
+}
+
+#menu-btn {
+	width: 50px;
+	padding: 5px;
+	font-size: 13px;
+	text-align: center;
+	background-color: #9EBB3E;
+	color: #fefefe;
+	cursor: pointer;
+	display: inline-block;
+}
+
+#supplierForm {
+	display: inline-block;
+}
+
+#menu-btn:hover {
+	background-color: #74892F;
+}
+
+#rootBar {
+	width: 960px;
+	padding: 10px 0;
+	text-indent: 10px;
+	font-size: 0.8em;
+}
+
+#rootBar a {
+	text-decoration: none;
+	color: #000;
+}
+
+#now_page {
+	color: #FE434C;
+	font-weight: bold;
+}
+
+#con-tit {
+	margin: 10px 0 10px 0;
+}
+#head-tit{
+	margin-top: 5px 0 10px 0;
+	display: inline-block;
+}
+#page-info {
+	font-size: 13px;
+}
+
+#page-info a {
+	text-decoration: none;
+	color: black;
+}
+#detailTr{
+	cursor: pointer;
+}
+#detailTr:hover{
+	background-color: #eee;
+}

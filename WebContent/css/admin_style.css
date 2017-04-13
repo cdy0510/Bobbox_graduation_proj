@@ -1,0 +1,38 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+*{
+    font-family: 'Nanum Gothic' sans-serif;
+}
+body{
+    background: #fefefe;
+}
+
+#box {
+    background: #fff;
+    padding: 40px;
+    width: 55%;
+    margin: 30px auto;
+    text-align: left;
+}
+
+#menu_title {
+	text-align: left;
+	background: #fff;
+}
+
+#menu_title img {
+	height:30px;
+}
+
+
+#content {
+	padding:40px;
+	background: #fff;
+	text-align: center;
+}
+#content img {
+    margin: 10px;  
+    width: 130px; 
+}
+#content a {
+	background: #fff;
+}

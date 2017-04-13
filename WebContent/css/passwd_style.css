@@ -1,0 +1,42 @@
+body {
+	background: #E0E0E0;
+}
+.box {
+	margin: 100px auto;
+	padding: 30px;
+	width: 400px;
+	border-radius: 50px;
+	background: #fff;
+	text-align: center;
+}
+.ok{
+	text-align: center;
+}
+.box img {
+	width: 300px;
+	
+}
+input[type="text"],input[type="password"]{
+	width: 300px;
+	font-size: 1em;
+	padding:10px;
+	margin:5px;
+}
+.btn_area {
+	margin: 20px auto;
+}
+input[type="submit"],input[type="button"] {
+	padding: 10px 20px;
+	width: 130px;
+	border: 0 none;
+	color: white;
+	background: #9EBB3E;
+}
+a {
+	text-decoration: none;
+	color: #777;
+	font-size:0.8em;
+}
+a:hover {
+	color: #9EBB3E;
+}

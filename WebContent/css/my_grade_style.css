@@ -1,0 +1,164 @@
+input[type="text"]{
+	width: 50px;
+	border: 0 none;
+	text-align: right;
+	background: none;
+	font-size: 12px;
+	font-family: 'Nanum Gothic' sans-serif;
+}
+
+.floatRight{
+	float: right;
+}
+#gold, #green{
+   display: none;
+}
+#gold-grade table{
+	margin: 0;
+	border-collapse: collapse;
+	font-size: 12px;
+	display: inline-block;
+}
+#gold-grade tr{
+	border: 1px solid #B1B1B1;
+}
+#gold-grade td{
+	padding: 2px;
+	border-right: 1px solid #B1B1B1;
+}
+#benefit table{
+	width: 728px;
+	margin: 0 auto;
+	font-size: 13px;
+	border-collapse: collapse;
+}
+#benefit th{
+	padding: 7px 0;
+	background-color: #F7F5F5;
+	border-top: 2px solid #594F4F;
+	border-bottom: 2px solid #ddd;
+}
+#benefit td{
+	text-align: center;
+	padding: 10px;
+	border-bottom: 1px solid #999;
+}
+
+#grade{
+	margin: 0 0 20px 25px;
+}
+#need-txt{
+	width: 81px;
+	text-align: center;
+	font-size: 11px;
+}
+#db-need{
+	width: 71px;
+	background-color: #fff;
+	text-align: right;
+	padding-right: 5px;
+}
+#gold-icon{
+	padding: 0;
+}
+#now-grade{
+	width: 243px;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid #D7D3C4;
+	background-color: #E4E0D5;
+	display: inline-block;
+	float: left;
+}
+#grade-tit{
+	font-size: 12px;
+	margin: 5px 0 15px 10px;
+	line-height: 1.5;
+}
+#bigicon{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+#orderPrice{
+	font-size: 14px;
+	font-weight: bold;
+}
+#buy-info{
+	width: 208px;
+	background-color: #F5F4F0;
+	border: 1px solid #D6D2C4;
+	margin: 0 auto;
+}
+#buy-count{
+	border-bottom: 1px solid #D6D2C4;
+	padding: 5px;
+}
+#buy-price{
+	padding: 5px;
+}
+#info-tit{
+	font-size: 12px;
+	color: #666;
+}
+#db-info{
+	font-size: 14px;
+	font-weight: bold;
+}
+#today{
+	width: 208px;
+	font-size: 12px;
+	text-align: center;
+	margin: 5px;
+}
+#arrow{
+	display: inline-block;
+	margin-left: -11px;
+	margin-bottom: 55px;
+}
+#gold-grade{
+	width: 216px; height: 243px;
+	padding: 10px 10px 10px 10px;
+	display: inline-block;
+	background-color: #F5F4F0;
+	border-top: 1px solid #D6D2C4;
+	border-bottom: 1px solid #D6D2C4;
+	float: left;
+}
+#gold-txt{
+	background-color: #EBBF82;
+	color: #fff;
+	font-weight: bold;
+	padding: 1px;
+}
+#need-tit{
+	color: #666;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 40px 0 15px 10px;
+}
+#gold-sub-tit{
+	color: #666;
+	font-size: 12px;
+	margin: 40px 0 15px 10px;
+	line-height: 1.5;
+}
+#standard{
+	width: 205px; height: 243px;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid #D6D2C4;
+	display: inline-block;
+}
+#stand-sub-tit{
+	margin: -10px 0 15px 10px;
+	font-size: 12px;
+	color: #999;
+}
+#stand-table{
+	margin: 0 0 0 10px;
+}
+#benefit{
+	margin: 0 0 20px 25px;
+}
+#benefit-etc{
+	font-size: 11px;
+}

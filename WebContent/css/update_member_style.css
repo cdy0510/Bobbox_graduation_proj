@@ -1,0 +1,92 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+*{
+    font-family: 'Nanum Gothic' sans-serif;
+}
+body{
+	width: 960px;
+	margin: 0 auto;
+    background: #fefefe;
+}
+.box {
+	margin: 20px auto;
+	padding: 20px;
+	width: 500px;
+	border-radius: 50px;
+	background: #fff;
+	text-align: center;
+}
+#rootBar{
+	font-size: 0.8em;
+	text-align: left;
+	text-indent: 30px;
+	margin-bottom: 20px;
+}
+#rootBar a{
+	text-decoration: none;
+	color: #000;
+}
+#now_page{
+	color: #FE434C;
+	font-weight: bold;
+}
+#must_write, #sub_write {
+    margin: auto;
+    width:450px;
+    left: 25px;
+	outline: 1px solid #e0e0e0;
+    z-index: 1;
+}
+.line {
+    border-bottom: 1px solid #f0f0f0;   
+}
+.label{
+	margin-top: -3px;
+	width: 60px;
+	margin-right:10px;
+	float: left;
+	font-size: 0.9em;
+	border-right: 1px solid #e0e0e0;
+}
+#must_write div, #sub_write div {
+    padding: 10px;
+    text-align: left;
+    color: #b5b5b5;
+}
+#gender input[type="text"] {
+    width: 180px;   
+}
+#gender img {
+    margin-bottom: -3px; 
+    height: 30px;
+}
+#birth input[type="text"] {
+    width: 60px;
+    border-right: 1px solid #e0e0e0;
+}
+input[type="text"],input[type="password"] {
+    border: 0 none;
+    padding: 5px;
+    font-size: 0.8em;
+	width: 300px;
+    
+}
+input[name="member_name"], input[name="member_id"], select{
+	color: #aaa;	
+}
+#pw_msg, #id_msg {
+	margin-left: 5px;
+	font-size: 0.7em;
+	color: #A5C440;
+	display: none;
+}
+input[type="submit"]{
+    margin: 10px auto;
+    margin-top: 30px;
+    width: 200px;
+	padding: 15px;
+	border: 0 none;
+	color: white;
+	background: #9EBB3E;
+	cursor: pointer;
+	display: block;
+}

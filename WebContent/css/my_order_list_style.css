@@ -1,0 +1,44 @@
+table{
+	width: 700px;
+	margin: 0 auto;
+	font-size: 13px;
+	border-collapse: collapse;
+}
+th{
+	padding: 7px 0;
+	background-color: #F7F5F5;
+	border-top: 2px solid #594F4F;
+	border-bottom: 2px solid #ddd;
+}
+td{
+	text-align: center;
+	padding: 5px;
+	border-bottom: 1px solid #999;
+}
+input[type="text"]{
+	width: 60px;
+	border: 0 none;
+	text-align: center;
+	font-family: 'Nanum Gothic', serif;
+}
+input[name="orderState"]{
+	color: #FF7F27;
+}
+#contents{
+	margin-bottom: 20px;
+}
+#delivery-tit{
+	margin: 20px 0 0 30px;
+}
+#delivery-sub-tit{
+	margin: 10px 0 10px 40px;
+	font-size: 13px;
+}
+#delivery-info ul{
+	padding: 0;
+	font-size: 11px;
+	line-height: 1.5;
+	margin: 0 0 0 40px;
+	color: #999;
+	list-style-type: square;
+}
